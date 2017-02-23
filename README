@@ -15,6 +15,17 @@ STEP:
 3. Run thttpd server:   
     `~installdir/sbin/thttpd -C /~webroot/cgi-bin-c/thttpd.conf`  
 
-4. Access in browser:  
+4. Compile:  
+    `make`  
+
+5. Access in browser:  
     `http://127.0.0.1:90/cgi-bin-c/index.cgi`  
+
+APPEND INFO:  
+
+1. How Configuration Should Work?  
+    http://www.gnu.org/software/autoconf/manual/standards.html#Configuration  
+    (config.sub , config.guess )  
+2. Autoconf Manual.  
+    http://www.gnu.org/software/autoconf/manual/autoconf.html  
 
