@@ -8,17 +8,17 @@ STEP:
 
 2. Clone this repo and go in.  
 
-2. Edit the thttpd.conf.  
+3. Edit the thttpd.conf.  
     Reference:  
     https://www.nginx.com/resources/wiki/start/topics/recipes/mailman/?highlight=cgi  
 
-3. Run thttpd server:   
+4. Run thttpd server:   
     `~installdir/sbin/thttpd -C /~webroot/cgi-bin-c/thttpd.conf`  
 
-4. Compile:  
+5. Compile:  
     `make`  
 
-5. Access in browser:  
+6. Access in browser:  
     `http://127.0.0.1:90/cgi-bin-c/index.cgi`  
 
 APPEND INFO:  
