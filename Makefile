@@ -10,7 +10,7 @@ CC 	= gcc
 EXT = .cgi
 
 ALL: index.c common_macro.h
-	$(CC) -o index$(EXT) $^
+	$(CC) -o index$(EXT) $^ -luuid
 
 clean:
 	rm -f index$(EXT)
